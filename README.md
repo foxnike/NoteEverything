@@ -1,3 +1,3 @@
-# note
-学习笔记
-仅作为本人学习的记录
+# NoteEverything
+Note for everything;
+Everything for note;
