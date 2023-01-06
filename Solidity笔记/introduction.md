@@ -1,5 +1,7 @@
 # solidty笔记
 在阅读本篇笔记前，笔者强烈推荐通过阅读[官方文档](https://docs.soliditylang.org/)进行Solidity学习，本篇笔记由于笔者水平可能存在错误，欢迎勘正；
+
+Solidity的发展变化非常快，请在阅读时请参考最新的文档以获取Solidity的新特性；
 ## 变量
 本小节内容：
 数据类型、数据作用域等
@@ -26,11 +28,11 @@ function requestList(uint256 arg1, uint256 arg2) public view Modifer returns (ui
 [修饰器笔记](%E5%B0%8F%E8%8A%82/%E4%BF%AE%E9%A5%B0%E5%99%A8.md)
 
 ## 多合约协作
-* 合约导入
 * 合约类型：
     * 接口合约
     * 抽象合约
     * 库合约
+* 合约导入
 * 合约继承
 
 [多合约协作笔记](%E5%B0%8F%E8%8A%82/%E5%A4%9A%E5%90%88%E7%BA%A6%E5%8D%8F%E4%BD%9C.md)
