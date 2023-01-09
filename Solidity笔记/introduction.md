@@ -25,6 +25,7 @@ function requestList(uint256 arg1, uint256 arg2) public view Modifer returns (ui
 本小节内容：
 
 修饰器参数问题、修饰器重写问题、修饰器代码执行顺序等；
+
 [修饰器笔记](%E5%B0%8F%E8%8A%82/%E4%BF%AE%E9%A5%B0%E5%99%A8.md)
 
 ## 多合约协作
@@ -37,5 +38,13 @@ function requestList(uint256 arg1, uint256 arg2) public view Modifer returns (ui
 
 [多合约协作笔记](%E5%B0%8F%E8%8A%82/%E5%A4%9A%E5%90%88%E7%BA%A6%E5%8D%8F%E4%BD%9C.md)
 
-## 日志
+## 事件系统
+Solidity的事件系统是在EVM的日志系统之上的一个抽象，外部应用程序可通过Ethereum客户端订阅与监听事件；
+
+本小节内容：
+
+日志的声明、调用、存储方式、`indexd`关键字与用途等；
+
+[事件系统笔记](%E5%B0%8F%E8%8A%82/%E4%BA%8B%E4%BB%B6%E7%B3%BB%E7%BB%9F.md)
+
 ## 异常处理
